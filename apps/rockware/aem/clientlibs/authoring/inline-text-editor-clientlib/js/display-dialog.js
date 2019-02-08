@@ -1,5 +1,5 @@
 (function($,$document){
-    var SENDER = "sumanta-showcase",
+    var SENDER = "rockware-showcase",
         REQUESTER = "requester",
         COLOR = "color",
         FONT_SIZE = "font-size",
