@@ -1,0 +1,4 @@
+js/initialization.js
+js/register-plugin.js
+js/register-command.js
+js/display-dialog.js
