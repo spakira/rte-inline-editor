@@ -4,6 +4,8 @@ Editor can change the font size or font family (Verdana/Courier/Cursive/Fantasy)
 
 Steps to configure this feature in your component:
 
-    Add a node of type nt:unstructured called "rockware-showcase" under rtePlugins node. For eaxmple : /apps/weretail/components/content/text/cq:editConfig/cq:inplaceEditing/config/rtePlugins/rockware-showcase
-    Add multi field property called "features" (String) and value as "inlineTextEdit"
-    If you want to disable any of the features then add multi field property called "disableFeatures" (String) and value as corresponding feature name e.g "./font-family". If you want to use all the features then leave it as blank.
+    1. Add a node of type nt:unstructured called "rockware-showcase" under rtePlugins node. For eaxmple : /apps/weretail/components/content/text/cq:editConfig/cq:inplaceEditing/config/rtePlugins/rockware-showcase
+    
+    2. Add multi field property called "features" (String) and value as "inlineTextEdit"
+    
+    3. If you want to disable any of the features then add multi field property called "disableFeatures" (String) and value as corresponding feature name e.g "./font-family". If you want to use all the features then leave it as blank.
